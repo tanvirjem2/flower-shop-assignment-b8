@@ -275,3 +275,39 @@ footer {
     margin-top: 32px;
     padding-bottom: 128px;
 }
+
+/* card section */
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
